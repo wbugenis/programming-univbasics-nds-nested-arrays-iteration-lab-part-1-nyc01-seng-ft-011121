@@ -4,7 +4,7 @@ def find_even_values(src)
   # Output all even values in each nested array
   src.length.times do |count|
     src[count].length.times do |nest_count|
-      src[count][nest_count].length times do |inner_count|
+      src[count][nest_count].length.times do |inner_count|
         if src[count][nest_count][inner_count].even?
           puts src[count][nest_count][inner_count]
         end
